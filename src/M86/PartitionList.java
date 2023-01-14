@@ -25,12 +25,12 @@ public class PartitionList {
     }
 
     public static void main(String[] args) {
-        ListNode node6 = new ListNode(2);
-        ListNode node5 = new ListNode(5, node6);
-        ListNode node4 = new ListNode(2, node5);
-        ListNode node3 = new ListNode(3, node4);
-        ListNode node2 = new ListNode(4, node3);
-        ListNode head = new ListNode(1, node2);
+        ListNode ListNode6 = new ListNode(2);
+        ListNode ListNode5 = new ListNode(5, ListNode6);
+        ListNode ListNode4 = new ListNode(2, ListNode5);
+        ListNode ListNode3 = new ListNode(3, ListNode4);
+        ListNode ListNode2 = new ListNode(4, ListNode3);
+        ListNode head = new ListNode(1, ListNode2);
         partition(head, 3);
 
     }
